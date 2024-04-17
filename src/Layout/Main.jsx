@@ -1,10 +1,14 @@
+import { Outlet } from "react-router-dom";
 import Home from "../Pages/Home/Home/Home";
+import Navigation from "../shared/Navigation/Navigation";
 
 const Main = () => {
     return (
-        <div>
-            <Home></Home>
-        </div>
+        <>
+           <Navigation></Navigation> 
+           <Outlet></Outlet>
+
+        </>
     );
 };
 
