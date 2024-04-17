@@ -1,9 +1,11 @@
 import { Link } from "react-router-dom";
+import { FaUser } from "react-icons/fa";
+
 
 const Navigation = () => {
     return (
         <>
-            <div className="navbar bg-base-100">
+            <div className="navbar bg-base-100 fixed">
                 <div className="navbar-start">
                     <div className="dropdown">
                         <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -13,7 +15,7 @@ const Navigation = () => {
                             <li><a>Item 1</a></li>
                         </ul>
                     </div>
-                    <a className="btn btn-ghost text-xl uppercase italic font-bold">SparkLife Celebration</a>
+                    <a className="btn btn-ghost text-xl uppercase italic font-bold bg-gradient-to-r from-cyan-500 to-blue-500 bg-clip-text text-transparent">SparkLife <p className="hidden md:block lg:block">Celebration</p> </a>
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal px-1">
@@ -31,7 +33,9 @@ const Navigation = () => {
                     </ul>
                 </div>
                 <div className="navbar-end">
-                    <a className="btn">Button</a>
+                    <a className="btn bg-white border-none bg-gradient-to-r from-blue-200 to-cyan-200 rounded-full">
+                        <FaUser className="md:text-2xl lg:text-2xl"/>
+                    </a>
                 </div>
             </div>
         </>
