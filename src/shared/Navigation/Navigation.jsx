@@ -5,7 +5,7 @@ import { FaUser } from "react-icons/fa";
 const Navigation = () => {
     return (
         <>
-            <div className="navbar bg-base-100 fixed">
+            <div className="navbar bg-base-100">
                 <div className="navbar-start">
                     <div className="dropdown">
                         <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -19,17 +19,17 @@ const Navigation = () => {
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal px-1">
-                        <li className="font-bold rounded-md hover:bg-gradient-to-r from-blue-200 to-cyan-200"><Link>Home</Link></li>
+                        <li className="font-bold rounded-md hover:bg-gradient-to-r from-indigo-400 to-cyan-400 hover:text-white"><Link>Home</Link></li>
 
-                        <li className="font-bold rounded-md hover:bg-gradient-to-r from-blue-200 to-cyan-200"><Link>About</Link></li>
+                        <li className="font-bold rounded-md hover:bg-gradient-to-r from-indigo-400 to-cyan-400 hover:text-white"><Link>About</Link></li>
 
-                        <li className="font-bold rounded-md hover:bg-gradient-to-r from-blue-200 to-cyan-200"><Link>Events</Link></li>
+                        <li className="font-bold rounded-md hover:bg-gradient-to-r from-indigo-400 to-cyan-400 hover:text-white"><Link>Events</Link></li>
 
-                        <li className="font-bold rounded-md hover:bg-gradient-to-r from-blue-200 to-cyan-200"><Link>Gallery</Link></li>
+                        <li className="font-bold rounded-md hover:bg-gradient-to-r from-indigo-400 to-cyan-400 hover:text-white"><Link>Gallery</Link></li>
 
-                        <li className="font-bold rounded-md hover:bg-gradient-to-r from-blue-200 to-cyan-200"><Link>Team</Link></li>
+                        <li className="font-bold rounded-md hover:bg-gradient-to-r from-indigo-400 to-cyan-400 hover:text-white"><Link>Team</Link></li>
 
-                        <li className="font-bold rounded-md hover:bg-gradient-to-r from-blue-200 to-cyan-200"><Link>Contact</Link></li>
+                        <li className="font-bold rounded-md hover:bg-gradient-to-r from-indigo-400 to-cyan-400 hover:text-white"><Link>Contact</Link></li>
                     </ul>
                 </div>
                 <div className="navbar-end">
