@@ -15,26 +15,26 @@ const Navigation = () => {
                             <li><a>Item 1</a></li>
                         </ul>
                     </div>
-                    <a className="btn btn-ghost text-xl uppercase italic font-bold bg-gradient-to-r from-cyan-500 to-blue-500 bg-clip-text text-transparent">SparkLife <p className="hidden md:block lg:block">Celebration</p> </a>
+                    <a className="btn btn-ghost text-xl uppercase italic font-bold bg-gradient-to-r from-red-500 to-orange-500 bg-clip-text text-transparent">SparkLife <p className="hidden md:block lg:block">Celebration</p> </a>
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal px-1">
-                        <li className="font-bold rounded-md hover:bg-gradient-to-r from-indigo-400 to-cyan-400 hover:text-white"><Link>Home</Link></li>
+                        <li className="font-bold rounded-md hover:bg-gradient-to-r from-red-500 to-orange-500 hover:text-white"><Link>Home</Link></li>
 
-                        <li className="font-bold rounded-md hover:bg-gradient-to-r from-indigo-400 to-cyan-400 hover:text-white"><Link>About</Link></li>
+                        <li className="font-bold rounded-md hover:bg-gradient-to-r from-red-500 to-orange-500 hover:text-white"><Link>About</Link></li>
 
-                        <li className="font-bold rounded-md hover:bg-gradient-to-r from-indigo-400 to-cyan-400 hover:text-white"><Link>Events</Link></li>
+                        <li className="font-bold rounded-md hover:bg-gradient-to-r from-red-500 to-orange-500 hover:text-white"><Link>Events</Link></li>
 
-                        <li className="font-bold rounded-md hover:bg-gradient-to-r from-indigo-400 to-cyan-400 hover:text-white"><Link>Gallery</Link></li>
+                        <li className="font-bold rounded-md hover:bg-gradient-to-r from-red-500 to-orange-500 hover:text-white"><Link>Gallery</Link></li>
 
-                        <li className="font-bold rounded-md hover:bg-gradient-to-r from-indigo-400 to-cyan-400 hover:text-white"><Link>Team</Link></li>
+                        <li className="font-bold rounded-md hover:bg-gradient-to-r from-red-500 to-orange-500 hover:text-white"><Link>Team</Link></li>
 
-                        <li className="font-bold rounded-md hover:bg-gradient-to-r from-indigo-400 to-cyan-400 hover:text-white"><Link>Contact</Link></li>
+                        <li className="font-bold rounded-md hover:bg-gradient-to-r from-red-500 to-orange-500 hover:text-white"><Link>Contact</Link></li>
                     </ul>
                 </div>
                 <div className="navbar-end">
-                    <a className="btn bg-white border-none bg-gradient-to-r from-blue-200 to-cyan-200 rounded-full">
-                        <FaUser className="md:text-2xl lg:text-2xl"/>
+                    <a className="btn bg-white border-none bg-gradient-to-r from-red-500 to-orange-500 rounded-full">
+                        <FaUser className="md:text-2xl lg:text-2xl text-white"/>
                     </a>
                 </div>
             </div>
